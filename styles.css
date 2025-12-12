@@ -1,0 +1,43 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first, .second, .third, .fourth, .header, .footer {
+  padding: 0% 300px;
+}
+
+.first, .second, .third, .fourth {
+  height: 300px;
+}
+
+.style1 {
+  background-color: #1F2937;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.general {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.third {
+  background-color: #E5E7EB;
+}
+
+
+
